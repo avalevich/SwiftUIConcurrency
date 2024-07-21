@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct DateTitle: View {
-    var title: String
+    var title: AttributedString
     @State private var date: String = ""
     
     var body: some View {

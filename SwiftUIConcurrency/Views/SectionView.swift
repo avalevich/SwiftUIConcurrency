@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SectionView: View {
     @Environment(\.presentationMode) var presentationMode
+    @State private var attributedContent: AttributedString = ""
     var course: Course
     var section: SectionCollection.Section
     
@@ -36,9 +37,16 @@ struct SectionView: View {
         ScrollView {
             SectionViewCover(course: course, section: section)
             
-            Text(section.content)
+            Text(attributedContent)
                 .padding(.top, 16)
                 .padding(.horizontal, 16)
+                .onAppear {
+                    do {
+                        attributedContent = try AttributedString(markdown: section.content)
+                    } catch {
+                        print("Error ", error.localizedDescription)
+                    }
+                }
         }
         .ignoresSafeArea(edges: .top)
     }

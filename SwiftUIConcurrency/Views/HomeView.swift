@@ -5,12 +5,25 @@ struct HomeView: View {
     @EnvironmentObject var courseViewModel: CourseViewModel
     @EnvironmentObject var modalManager: ModalManager
     
+    var attributedTitle: AttributedString {
+        var subject = AttributedString(courseViewModel.featuredSubject.rawValue)
+        var container = AttributeContainer()
+        if courseViewModel.featuredCourses.count > 0 {
+            let color = Color.init(hex: courseViewModel.featuredCourses[0].colors[0]!)
+            container.foregroundColor = color
+        } else {
+            container.foregroundColor = .purple
+        }
+        subject.mergeAttributes(container)
+        return "Learn " + subject
+    }
+    
     var body: some View {
         ZStack(alignment: .top) {
             ScrollView {
                 VStack(spacing: 0) {
                     HStack {
-                        DateTitle(title: "Learn \(courseViewModel.featuredSubject.rawValue)")
+                        DateTitle(title: attributedTitle)
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .padding(.top, 20)
                         

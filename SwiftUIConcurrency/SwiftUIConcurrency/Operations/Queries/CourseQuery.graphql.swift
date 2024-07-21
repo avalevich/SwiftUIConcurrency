@@ -8,10 +8,16 @@ extension SwiftUIConcurrency {
     static let operationName: String = "Course"
     static let operationDocument: ApolloAPI.OperationDocument = .init(
       definition: .init(
-        #"query Course { courseCollection { __typename courses: items { __typename sys { __typename publishedAt id } title subtitle numberOfSections numberOfHours subject colors illustration { __typename url } sectionCollection { __typename sections: items { __typename sys { __typename id } title subtitle content } } } } }"#
+        #"query Course($locale: String!) { courseCollection(locale: $locale) { __typename courses: items { __typename sys { __typename publishedAt id } title subtitle numberOfSections numberOfHours subject colors illustration { __typename url } sectionCollection { __typename sections: items { __typename sys { __typename id } title subtitle content } } } } }"#
       ))
 
-    public init() {}
+    public var locale: String
+
+    public init(locale: String) {
+      self.locale = locale
+    }
+
+    public var __variables: Variables? { ["locale": locale] }
 
     struct Data: SwiftUIConcurrency.SelectionSet {
       let __data: DataDict
@@ -19,7 +25,7 @@ extension SwiftUIConcurrency {
 
       static var __parentType: ApolloAPI.ParentType { SwiftUIConcurrency.Objects.Query }
       static var __selections: [ApolloAPI.Selection] { [
-        .field("courseCollection", CourseCollection?.self),
+        .field("courseCollection", CourseCollection?.self, arguments: ["locale": .variable("locale")]),
       ] }
 
       var courseCollection: CourseCollection? { __data["courseCollection"] }
