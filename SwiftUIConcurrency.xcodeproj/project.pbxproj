@@ -37,6 +37,14 @@
 		3AFE46FA2C4D355200AF85AD /* SectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46F92C4D355200AF85AD /* SectionViewModel.swift */; };
 		3AFE46FC2C4D377300AF85AD /* SectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46FB2C4D377300AF85AD /* SectionsView.swift */; };
 		3AFE46FE2C4D37FA00AF85AD /* SectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46FD2C4D37FA00AF85AD /* SectionList.swift */; };
+		3AFE47002C4D4DB900AF85AD /* ProfileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46FF2C4D4DB900AF85AD /* ProfileIcon.swift */; };
+		3AFE47062C4D4E8C00AF85AD /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE47012C4D4E8C00AF85AD /* ResetPasswordView.swift */; };
+		3AFE47072C4D4E8C00AF85AD /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE47022C4D4E8C00AF85AD /* SignInView.swift */; };
+		3AFE47082C4D4E8C00AF85AD /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE47032C4D4E8C00AF85AD /* GradientButton.swift */; };
+		3AFE47092C4D4E8C00AF85AD /* GradientIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE47042C4D4E8C00AF85AD /* GradientIcon.swift */; };
+		3AFE470A2C4D4E8C00AF85AD /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE47052C4D4E8C00AF85AD /* SignUpView.swift */; };
+		3AFE470C2C4D4EE300AF85AD /* ModalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE470B2C4D4EE300AF85AD /* ModalManager.swift */; };
+		3AFE470E2C4D503E00AF85AD /* ModalManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE470D2C4D503E00AF85AD /* ModalManagerView.swift */; };
 		442A26B92BFB7C84007AC523 /* DateTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A26B82BFB7C84007AC523 /* DateTitle.swift */; };
 		442A26BB2BFB7D91007AC523 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A26BA2BFB7D91007AC523 /* HomeView.swift */; };
 		442A26BF2BFB7E36007AC523 /* FeaturedCourseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A26BE2BFB7E36007AC523 /* FeaturedCourseCard.swift */; };
@@ -81,6 +89,14 @@
 		3AFE46F92C4D355200AF85AD /* SectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewModel.swift; sourceTree = "<group>"; };
 		3AFE46FB2C4D377300AF85AD /* SectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsView.swift; sourceTree = "<group>"; };
 		3AFE46FD2C4D37FA00AF85AD /* SectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionList.swift; sourceTree = "<group>"; };
+		3AFE46FF2C4D4DB900AF85AD /* ProfileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileIcon.swift; sourceTree = "<group>"; };
+		3AFE47012C4D4E8C00AF85AD /* ResetPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		3AFE47022C4D4E8C00AF85AD /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		3AFE47032C4D4E8C00AF85AD /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		3AFE47042C4D4E8C00AF85AD /* GradientIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientIcon.swift; sourceTree = "<group>"; };
+		3AFE47052C4D4E8C00AF85AD /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		3AFE470B2C4D4EE300AF85AD /* ModalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalManager.swift; sourceTree = "<group>"; };
+		3AFE470D2C4D503E00AF85AD /* ModalManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalManagerView.swift; sourceTree = "<group>"; };
 		442A26B82BFB7C84007AC523 /* DateTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTitle.swift; sourceTree = "<group>"; };
 		442A26BA2BFB7D91007AC523 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		442A26BE2BFB7E36007AC523 /* FeaturedCourseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCourseCard.swift; sourceTree = "<group>"; };
@@ -112,6 +128,7 @@
 				3AFE46C72C4D291F00AF85AD /* LoadFromFile.swift */,
 				3AFE46BD2C4C2A6F00AF85AD /* Network.swift */,
 				3AFE46CB2C4D2AB300AF85AD /* Extensions.swift */,
+				3AFE470B2C4D4EE300AF85AD /* ModalManager.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -219,10 +236,16 @@
 			children = (
 				442A26B82BFB7C84007AC523 /* DateTitle.swift */,
 				3AFE46FD2C4D37FA00AF85AD /* SectionList.swift */,
+				3AFE47032C4D4E8C00AF85AD /* GradientButton.swift */,
+				3AFE47042C4D4E8C00AF85AD /* GradientIcon.swift */,
+				3AFE47012C4D4E8C00AF85AD /* ResetPasswordView.swift */,
+				3AFE47022C4D4E8C00AF85AD /* SignInView.swift */,
+				3AFE47052C4D4E8C00AF85AD /* SignUpView.swift */,
 				442A26C22BFB82F3007AC523 /* CourseCard.swift */,
 				442A26BE2BFB7E36007AC523 /* FeaturedCourseCard.swift */,
 				442A26C02BFB824A007AC523 /* FeaturedCourseList.swift */,
 				442A26C42BFB8530007AC523 /* CourseList.swift */,
+				3AFE46FF2C4D4DB900AF85AD /* ProfileIcon.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -233,6 +256,7 @@
 				4431662B2BD16D990080B121 /* ContentView.swift */,
 				3AFE46FB2C4D377300AF85AD /* SectionsView.swift */,
 				442A26BA2BFB7D91007AC523 /* HomeView.swift */,
+				3AFE470D2C4D503E00AF85AD /* ModalManagerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -364,17 +388,20 @@
 				3AFE46EA2C4D343B00AF85AD /* _Node.graphql.swift in Sources */,
 				3AFE46F02C4D343B00AF85AD /* Query.graphql.swift in Sources */,
 				3AFE46F52C4D343B00AF85AD /* SchemaMetadata.graphql.swift in Sources */,
+				3AFE47062C4D4E8C00AF85AD /* ResetPasswordView.swift in Sources */,
 				3AFE46FE2C4D37FA00AF85AD /* SectionList.swift in Sources */,
 				3AFE46EB2C4D343B00AF85AD /* Entry.graphql.swift in Sources */,
 				3AFE46F82C4D347000AF85AD /* SectionModel.swift in Sources */,
 				3AFE46C42C4C31B100AF85AD /* CourseModel.swift in Sources */,
 				3AFE46F22C4D343B00AF85AD /* SectionCollection.graphql.swift in Sources */,
+				3AFE47002C4D4DB900AF85AD /* ProfileIcon.swift in Sources */,
 				3AFE46F32C4D343B00AF85AD /* Sys.graphql.swift in Sources */,
 				442A26C52BFB8530007AC523 /* CourseList.swift in Sources */,
 				4431662C2BD16D990080B121 /* ContentView.swift in Sources */,
 				442A26BB2BFB7D91007AC523 /* HomeView.swift in Sources */,
 				442A26C12BFB824A007AC523 /* FeaturedCourseList.swift in Sources */,
 				3AFE46ED2C4D343B00AF85AD /* Course.graphql.swift in Sources */,
+				3AFE47072C4D4E8C00AF85AD /* SignInView.swift in Sources */,
 				4431662A2BD16D990080B121 /* SwiftUIConcurrencyApp.swift in Sources */,
 				442A26C32BFB82F3007AC523 /* CourseCard.swift in Sources */,
 				3AFE46F12C4D343B00AF85AD /* Section.graphql.swift in Sources */,
@@ -384,17 +411,22 @@
 				3AFE46FA2C4D355200AF85AD /* SectionViewModel.swift in Sources */,
 				3AFE46EC2C4D343B00AF85AD /* Asset.graphql.swift in Sources */,
 				3AFE46C12C4C2B5300AF85AD /* CourseViewModel.swift in Sources */,
+				3AFE470E2C4D503E00AF85AD /* ModalManagerView.swift in Sources */,
 				3AFE46EF2C4D343B00AF85AD /* CourseSectionCollection.graphql.swift in Sources */,
 				3AFE46E92C4D343B00AF85AD /* DateTime.swift in Sources */,
 				3AFE46CA2C4D294900AF85AD /* PreviewData.swift in Sources */,
 				3AFE46E72C4D343B00AF85AD /* CourseQuery.graphql.swift in Sources */,
 				3AFE46C82C4D291F00AF85AD /* LoadFromFile.swift in Sources */,
+				3AFE470C2C4D4EE300AF85AD /* ModalManager.swift in Sources */,
 				3AFE46E82C4D343B00AF85AD /* SectionQuery.graphql.swift in Sources */,
 				3AFE46BE2C4C2A6F00AF85AD /* Network.swift in Sources */,
 				3AFE46F62C4D343B00AF85AD /* SwiftUIConcurrency.graphql.swift in Sources */,
 				3AFE46F42C4D343B00AF85AD /* SchemaConfiguration.swift in Sources */,
 				3AFE46CC2C4D2AB300AF85AD /* Extensions.swift in Sources */,
+				3AFE470A2C4D4E8C00AF85AD /* SignUpView.swift in Sources */,
+				3AFE47092C4D4E8C00AF85AD /* GradientIcon.swift in Sources */,
 				3AFE46EE2C4D343B00AF85AD /* CourseCollection.graphql.swift in Sources */,
+				3AFE47082C4D4E8C00AF85AD /* GradientButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

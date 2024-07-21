@@ -3,29 +3,38 @@ import SwiftUI
 struct ContentView: View {
     @EnvironmentObject var courseViewModel: CourseViewModel
     @EnvironmentObject var sectionViewModel: SectionViewModel
+    @StateObject var modalManager = ModalManager()
     @State private var text = ""
     
     var body: some View {
-        TabView {
-            HomeView()
-                .tabItem {
-                    Image(systemName: "house")
-                    Text("Learn now")
+        ZStack {
+            TabView {
+                HomeView()
+                    .tabItem {
+                        Image(systemName: "house")
+                        Text("Learn now")
+                    }
+                    .environmentObject(modalManager)
+                NavigationView {
+                    SectionsView()
                 }
-            NavigationView {
-                SectionsView()
+                .searchable(text: $text)
+                .onSubmit(of: .search) {
+                    sectionViewModel.filterSections(for: text)
+                }
+                .tabItem {
+                    Image(systemName: "square.stack.3d.down.right.fill")
+                    Text("Sections")
+                }
             }
-            .searchable(text: $text)
-            .onSubmit(of: .search) {
-                sectionViewModel.filterSections(for: text)
+            .task {
+                await courseViewModel.fetch()
             }
-            .tabItem {
-                Image(systemName: "square.stack.3d.down.right.fill")
-                Text("Sections")
+            
+            if modalManager.showModal {
+                ModalManagerView()
+                    .environmentObject(modalManager)
             }
-        }
-        .task {
-            await courseViewModel.fetch()
         }
     }
 }
