@@ -9,12 +9,14 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             TabView {
-                HomeView()
-                    .tabItem {
-                        Image(systemName: "house")
-                        Text("Learn now")
-                    }
-                    .environmentObject(modalManager)
+               NavigationView {
+                    HomeView()
+                        .environmentObject(modalManager)
+                }
+               .tabItem {
+                   Image(systemName: "house")
+                   Text("Learn now")
+               }
                 NavigationView {
                     SectionsView()
                 }

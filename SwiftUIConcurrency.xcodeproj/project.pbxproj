@@ -50,6 +50,15 @@
 		3AFE47142C4D603800AF85AD /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE47132C4D603800AF85AD /* AccountViewModel.swift */; };
 		3AFE47162C4D636C00AF85AD /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE47152C4D636C00AF85AD /* ProfileCard.swift */; };
 		3AFE47182C4D645300AF85AD /* SFSafariViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE47172C4D645300AF85AD /* SFSafariViewWrapper.swift */; };
+		3AFE47202C4D695600AF85AD /* CourseViewSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE47192C4D695600AF85AD /* CourseViewSubtitle.swift */; };
+		3AFE47212C4D695600AF85AD /* SectionViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE471A2C4D695600AF85AD /* SectionViewTitle.swift */; };
+		3AFE47222C4D695600AF85AD /* SectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE471B2C4D695600AF85AD /* SectionRow.swift */; };
+		3AFE47232C4D695600AF85AD /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE471C2C4D695600AF85AD /* CloseButton.swift */; };
+		3AFE47242C4D695600AF85AD /* SectionViewCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE471D2C4D695600AF85AD /* SectionViewCover.swift */; };
+		3AFE47252C4D695600AF85AD /* CourseViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE471E2C4D695600AF85AD /* CourseViewTitle.swift */; };
+		3AFE47262C4D695600AF85AD /* CourseViewCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE471F2C4D695600AF85AD /* CourseViewCover.swift */; };
+		3AFE47282C4D69CE00AF85AD /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE47272C4D69CE00AF85AD /* CourseView.swift */; };
+		3AFE472A2C4D6C8400AF85AD /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE47292C4D6C8400AF85AD /* SectionView.swift */; };
 		442A26B92BFB7C84007AC523 /* DateTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A26B82BFB7C84007AC523 /* DateTitle.swift */; };
 		442A26BB2BFB7D91007AC523 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A26BA2BFB7D91007AC523 /* HomeView.swift */; };
 		442A26BF2BFB7E36007AC523 /* FeaturedCourseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A26BE2BFB7E36007AC523 /* FeaturedCourseCard.swift */; };
@@ -107,6 +116,15 @@
 		3AFE47132C4D603800AF85AD /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		3AFE47152C4D636C00AF85AD /* ProfileCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCard.swift; sourceTree = "<group>"; };
 		3AFE47172C4D645300AF85AD /* SFSafariViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewWrapper.swift; sourceTree = "<group>"; };
+		3AFE47192C4D695600AF85AD /* CourseViewSubtitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseViewSubtitle.swift; sourceTree = "<group>"; };
+		3AFE471A2C4D695600AF85AD /* SectionViewTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionViewTitle.swift; sourceTree = "<group>"; };
+		3AFE471B2C4D695600AF85AD /* SectionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionRow.swift; sourceTree = "<group>"; };
+		3AFE471C2C4D695600AF85AD /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		3AFE471D2C4D695600AF85AD /* SectionViewCover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionViewCover.swift; sourceTree = "<group>"; };
+		3AFE471E2C4D695600AF85AD /* CourseViewTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseViewTitle.swift; sourceTree = "<group>"; };
+		3AFE471F2C4D695600AF85AD /* CourseViewCover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseViewCover.swift; sourceTree = "<group>"; };
+		3AFE47272C4D69CE00AF85AD /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		3AFE47292C4D6C8400AF85AD /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		442A26B82BFB7C84007AC523 /* DateTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTitle.swift; sourceTree = "<group>"; };
 		442A26BA2BFB7D91007AC523 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		442A26BE2BFB7E36007AC523 /* FeaturedCourseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCourseCard.swift; sourceTree = "<group>"; };
@@ -254,6 +272,13 @@
 				3AFE47152C4D636C00AF85AD /* ProfileCard.swift */,
 				3AFE47012C4D4E8C00AF85AD /* ResetPasswordView.swift */,
 				3AFE47022C4D4E8C00AF85AD /* SignInView.swift */,
+				3AFE471C2C4D695600AF85AD /* CloseButton.swift */,
+				3AFE471F2C4D695600AF85AD /* CourseViewCover.swift */,
+				3AFE47192C4D695600AF85AD /* CourseViewSubtitle.swift */,
+				3AFE471E2C4D695600AF85AD /* CourseViewTitle.swift */,
+				3AFE471B2C4D695600AF85AD /* SectionRow.swift */,
+				3AFE471D2C4D695600AF85AD /* SectionViewCover.swift */,
+				3AFE471A2C4D695600AF85AD /* SectionViewTitle.swift */,
 				3AFE47052C4D4E8C00AF85AD /* SignUpView.swift */,
 				442A26C22BFB82F3007AC523 /* CourseCard.swift */,
 				442A26BE2BFB7E36007AC523 /* FeaturedCourseCard.swift */,
@@ -270,6 +295,8 @@
 				4431662B2BD16D990080B121 /* ContentView.swift */,
 				3AFE46FB2C4D377300AF85AD /* SectionsView.swift */,
 				442A26BA2BFB7D91007AC523 /* HomeView.swift */,
+				3AFE47272C4D69CE00AF85AD /* CourseView.swift */,
+				3AFE47292C4D6C8400AF85AD /* SectionView.swift */,
 				3AFE470D2C4D503E00AF85AD /* ModalManagerView.swift */,
 				3AFE470F2C4D5E6100AF85AD /* AccountView.swift */,
 			);
@@ -400,17 +427,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFE47212C4D695600AF85AD /* SectionViewTitle.swift in Sources */,
 				3AFE46EA2C4D343B00AF85AD /* _Node.graphql.swift in Sources */,
 				3AFE46F02C4D343B00AF85AD /* Query.graphql.swift in Sources */,
 				3AFE46F52C4D343B00AF85AD /* SchemaMetadata.graphql.swift in Sources */,
 				3AFE47062C4D4E8C00AF85AD /* ResetPasswordView.swift in Sources */,
 				3AFE46FE2C4D37FA00AF85AD /* SectionList.swift in Sources */,
+				3AFE47232C4D695600AF85AD /* CloseButton.swift in Sources */,
+				3AFE47282C4D69CE00AF85AD /* CourseView.swift in Sources */,
+				3AFE47222C4D695600AF85AD /* SectionRow.swift in Sources */,
 				3AFE46EB2C4D343B00AF85AD /* Entry.graphql.swift in Sources */,
 				3AFE46F82C4D347000AF85AD /* SectionModel.swift in Sources */,
 				3AFE46C42C4C31B100AF85AD /* CourseModel.swift in Sources */,
 				3AFE46F22C4D343B00AF85AD /* SectionCollection.graphql.swift in Sources */,
 				3AFE47002C4D4DB900AF85AD /* ProfileIcon.swift in Sources */,
+				3AFE47262C4D695600AF85AD /* CourseViewCover.swift in Sources */,
 				3AFE47122C4D5F2200AF85AD /* UserModel.swift in Sources */,
+				3AFE47202C4D695600AF85AD /* CourseViewSubtitle.swift in Sources */,
 				3AFE46F32C4D343B00AF85AD /* Sys.graphql.swift in Sources */,
 				442A26C52BFB8530007AC523 /* CourseList.swift in Sources */,
 				4431662C2BD16D990080B121 /* ContentView.swift in Sources */,
@@ -428,6 +461,7 @@
 				3AFE46FC2C4D377300AF85AD /* SectionsView.swift in Sources */,
 				442A26BF2BFB7E36007AC523 /* FeaturedCourseCard.swift in Sources */,
 				3AFE46FA2C4D355200AF85AD /* SectionViewModel.swift in Sources */,
+				3AFE47242C4D695600AF85AD /* SectionViewCover.swift in Sources */,
 				3AFE46EC2C4D343B00AF85AD /* Asset.graphql.swift in Sources */,
 				3AFE46C12C4C2B5300AF85AD /* CourseViewModel.swift in Sources */,
 				3AFE470E2C4D503E00AF85AD /* ModalManagerView.swift in Sources */,
@@ -444,6 +478,8 @@
 				3AFE46F42C4D343B00AF85AD /* SchemaConfiguration.swift in Sources */,
 				3AFE46CC2C4D2AB300AF85AD /* Extensions.swift in Sources */,
 				3AFE470A2C4D4E8C00AF85AD /* SignUpView.swift in Sources */,
+				3AFE47252C4D695600AF85AD /* CourseViewTitle.swift in Sources */,
+				3AFE472A2C4D6C8400AF85AD /* SectionView.swift in Sources */,
 				3AFE47092C4D4E8C00AF85AD /* GradientIcon.swift in Sources */,
 				3AFE46EE2C4D343B00AF85AD /* CourseCollection.graphql.swift in Sources */,
 				3AFE47082C4D4E8C00AF85AD /* GradientButton.swift in Sources */,
