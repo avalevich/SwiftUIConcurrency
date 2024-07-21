@@ -21,10 +21,12 @@ struct SectionDataCollection: Decodable {
     struct SectionModel: Decodable {
         let id: String
         let title: String
+        var isPinned: Bool
         
         init(_ section: SectionsCollectionData.Section?) {
             self.id = section?.sys.id ?? ""
             self.title = section?.title ?? ""
+            self.isPinned = false
         }
     }
 }
