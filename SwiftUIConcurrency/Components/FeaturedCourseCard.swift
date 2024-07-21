@@ -1,9 +1,10 @@
 import SwiftUI
 
 struct FeaturedCourseCard: View {
+    var featuredCourse: Course
     var body: some View {
         VStack(spacing: 8) {
-            AsyncImage(url: URL(string: "https://images.ctfassets.net/ooa29xqb8tix/5IXFM29JvbdXKuHeGF91Y3/6b49d65577c32747b7b1a60444c56d9c/SwiftUI_Combine_800x600_cover.png")) { img in
+            AsyncImage(url: URL(string: featuredCourse.illustration)) { img in
                 img.resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(maxWidth: 220, alignment: .center)
@@ -12,14 +13,14 @@ struct FeaturedCourseCard: View {
                     .foregroundStyle(Color.gray.opacity(0.2))
             }
             
-            Text("SwiftUI Combine and Data")
+            Text(featuredCourse.title)
                 .font(.title)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .lineLimit(2)
 
-            Text("18 sections - 3 hours")
+            Text("\(featuredCourse.numberOfSections) sections - \(featuredCourse.numberOfHours) hours")
                 .font(.footnote)
                 .foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.7)))
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -35,7 +36,7 @@ struct FeaturedCourseCard: View {
         .padding(16)
         .frame(width: 252, height: 350, alignment: .top)
         .background(
-            LinearGradient(gradient: Gradient(colors: [.blue, .purple]), startPoint: .top, endPoint: .bottomLeading)
+            LinearGradient(gradient: Gradient(colors: [Color.init(hex: featuredCourse.colors.first!!), Color.init(hex: featuredCourse.colors.last!!)]), startPoint: .top, endPoint: .bottomLeading)
         )
         .mask(RoundedRectangle(cornerRadius: 30, style: .continuous))
         .overlay(RoundedRectangle(cornerRadius: 30, style: .continuous)
@@ -45,5 +46,5 @@ struct FeaturedCourseCard: View {
 }
 
 #Preview {
-    FeaturedCourseCard()
+    FeaturedCourseCard(featuredCourse: coursePreviewData)
 }

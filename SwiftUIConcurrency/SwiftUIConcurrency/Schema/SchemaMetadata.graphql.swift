@@ -38,6 +38,7 @@ extension SwiftUIConcurrency {
       case "Sys": return SwiftUIConcurrency.Objects.Sys
       case "Asset": return SwiftUIConcurrency.Objects.Asset
       case "CourseSectionCollection": return SwiftUIConcurrency.Objects.CourseSectionCollection
+      case "SectionCollection": return SwiftUIConcurrency.Objects.SectionCollection
       default: return nil
       }
     }

@@ -9,20 +9,6 @@
 /* Begin PBXBuildFile section */
 		3AFE46952C4C17C900AF85AD /* CourseQuery.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE46942C4C17C900AF85AD /* CourseQuery.graphql */; };
 		3AFE46982C4C198300AF85AD /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE46972C4C198300AF85AD /* schema.json */; };
-		3AFE46AE2C4C29F900AF85AD /* CourseQuery.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46992C4C29F900AF85AD /* CourseQuery.graphql.swift */; };
-		3AFE46AF2C4C29F900AF85AD /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE469C2C4C29F900AF85AD /* DateTime.swift */; };
-		3AFE46B02C4C29F900AF85AD /* _Node.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE469E2C4C29F900AF85AD /* _Node.graphql.swift */; };
-		3AFE46B12C4C29F900AF85AD /* Entry.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE469F2C4C29F900AF85AD /* Entry.graphql.swift */; };
-		3AFE46B22C4C29F900AF85AD /* Asset.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46A12C4C29F900AF85AD /* Asset.graphql.swift */; };
-		3AFE46B32C4C29F900AF85AD /* Course.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46A22C4C29F900AF85AD /* Course.graphql.swift */; };
-		3AFE46B42C4C29F900AF85AD /* CourseCollection.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46A32C4C29F900AF85AD /* CourseCollection.graphql.swift */; };
-		3AFE46B52C4C29F900AF85AD /* CourseSectionCollection.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46A42C4C29F900AF85AD /* CourseSectionCollection.graphql.swift */; };
-		3AFE46B62C4C29F900AF85AD /* Query.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46A52C4C29F900AF85AD /* Query.graphql.swift */; };
-		3AFE46B72C4C29F900AF85AD /* Section.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46A62C4C29F900AF85AD /* Section.graphql.swift */; };
-		3AFE46B82C4C29F900AF85AD /* Sys.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46A72C4C29F900AF85AD /* Sys.graphql.swift */; };
-		3AFE46B92C4C29F900AF85AD /* SchemaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46A92C4C29F900AF85AD /* SchemaConfiguration.swift */; };
-		3AFE46BA2C4C29F900AF85AD /* SchemaMetadata.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46AA2C4C29F900AF85AD /* SchemaMetadata.graphql.swift */; };
-		3AFE46BB2C4C29F900AF85AD /* SwiftUIConcurrency.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46AC2C4C29F900AF85AD /* SwiftUIConcurrency.graphql.swift */; };
 		3AFE46BE2C4C2A6F00AF85AD /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46BD2C4C2A6F00AF85AD /* Network.swift */; };
 		3AFE46C12C4C2B5300AF85AD /* CourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46C02C4C2B5300AF85AD /* CourseViewModel.swift */; };
 		3AFE46C42C4C31B100AF85AD /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46C32C4C31B100AF85AD /* CourseModel.swift */; };
@@ -30,6 +16,27 @@
 		3AFE46C82C4D291F00AF85AD /* LoadFromFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46C72C4D291F00AF85AD /* LoadFromFile.swift */; };
 		3AFE46CA2C4D294900AF85AD /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46C92C4D294900AF85AD /* PreviewData.swift */; };
 		3AFE46CC2C4D2AB300AF85AD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46CB2C4D2AB300AF85AD /* Extensions.swift */; };
+		3AFE46CF2C4D327F00AF85AD /* SectionQuery.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE46CE2C4D327F00AF85AD /* SectionQuery.graphql */; };
+		3AFE46E72C4D343B00AF85AD /* CourseQuery.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46D02C4D343B00AF85AD /* CourseQuery.graphql.swift */; };
+		3AFE46E82C4D343B00AF85AD /* SectionQuery.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46D12C4D343B00AF85AD /* SectionQuery.graphql.swift */; };
+		3AFE46E92C4D343B00AF85AD /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46D42C4D343B00AF85AD /* DateTime.swift */; };
+		3AFE46EA2C4D343B00AF85AD /* _Node.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46D62C4D343B00AF85AD /* _Node.graphql.swift */; };
+		3AFE46EB2C4D343B00AF85AD /* Entry.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46D72C4D343B00AF85AD /* Entry.graphql.swift */; };
+		3AFE46EC2C4D343B00AF85AD /* Asset.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46D92C4D343B00AF85AD /* Asset.graphql.swift */; };
+		3AFE46ED2C4D343B00AF85AD /* Course.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46DA2C4D343B00AF85AD /* Course.graphql.swift */; };
+		3AFE46EE2C4D343B00AF85AD /* CourseCollection.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46DB2C4D343B00AF85AD /* CourseCollection.graphql.swift */; };
+		3AFE46EF2C4D343B00AF85AD /* CourseSectionCollection.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46DC2C4D343B00AF85AD /* CourseSectionCollection.graphql.swift */; };
+		3AFE46F02C4D343B00AF85AD /* Query.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46DD2C4D343B00AF85AD /* Query.graphql.swift */; };
+		3AFE46F12C4D343B00AF85AD /* Section.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46DE2C4D343B00AF85AD /* Section.graphql.swift */; };
+		3AFE46F22C4D343B00AF85AD /* SectionCollection.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46DF2C4D343B00AF85AD /* SectionCollection.graphql.swift */; };
+		3AFE46F32C4D343B00AF85AD /* Sys.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46E02C4D343B00AF85AD /* Sys.graphql.swift */; };
+		3AFE46F42C4D343B00AF85AD /* SchemaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46E22C4D343B00AF85AD /* SchemaConfiguration.swift */; };
+		3AFE46F52C4D343B00AF85AD /* SchemaMetadata.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46E32C4D343B00AF85AD /* SchemaMetadata.graphql.swift */; };
+		3AFE46F62C4D343B00AF85AD /* SwiftUIConcurrency.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46E52C4D343B00AF85AD /* SwiftUIConcurrency.graphql.swift */; };
+		3AFE46F82C4D347000AF85AD /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46F72C4D347000AF85AD /* SectionModel.swift */; };
+		3AFE46FA2C4D355200AF85AD /* SectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46F92C4D355200AF85AD /* SectionViewModel.swift */; };
+		3AFE46FC2C4D377300AF85AD /* SectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46FB2C4D377300AF85AD /* SectionsView.swift */; };
+		3AFE46FE2C4D37FA00AF85AD /* SectionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE46FD2C4D37FA00AF85AD /* SectionList.swift */; };
 		442A26B92BFB7C84007AC523 /* DateTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A26B82BFB7C84007AC523 /* DateTitle.swift */; };
 		442A26BB2BFB7D91007AC523 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A26BA2BFB7D91007AC523 /* HomeView.swift */; };
 		442A26BF2BFB7E36007AC523 /* FeaturedCourseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A26BE2BFB7E36007AC523 /* FeaturedCourseCard.swift */; };
@@ -46,20 +53,6 @@
 /* Begin PBXFileReference section */
 		3AFE46942C4C17C900AF85AD /* CourseQuery.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = CourseQuery.graphql; sourceTree = "<group>"; };
 		3AFE46972C4C198300AF85AD /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
-		3AFE46992C4C29F900AF85AD /* CourseQuery.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseQuery.graphql.swift; sourceTree = "<group>"; };
-		3AFE469C2C4C29F900AF85AD /* DateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
-		3AFE469E2C4C29F900AF85AD /* _Node.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _Node.graphql.swift; sourceTree = "<group>"; };
-		3AFE469F2C4C29F900AF85AD /* Entry.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.graphql.swift; sourceTree = "<group>"; };
-		3AFE46A12C4C29F900AF85AD /* Asset.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asset.graphql.swift; sourceTree = "<group>"; };
-		3AFE46A22C4C29F900AF85AD /* Course.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.graphql.swift; sourceTree = "<group>"; };
-		3AFE46A32C4C29F900AF85AD /* CourseCollection.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCollection.graphql.swift; sourceTree = "<group>"; };
-		3AFE46A42C4C29F900AF85AD /* CourseSectionCollection.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSectionCollection.graphql.swift; sourceTree = "<group>"; };
-		3AFE46A52C4C29F900AF85AD /* Query.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.graphql.swift; sourceTree = "<group>"; };
-		3AFE46A62C4C29F900AF85AD /* Section.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.graphql.swift; sourceTree = "<group>"; };
-		3AFE46A72C4C29F900AF85AD /* Sys.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sys.graphql.swift; sourceTree = "<group>"; };
-		3AFE46A92C4C29F900AF85AD /* SchemaConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaConfiguration.swift; sourceTree = "<group>"; };
-		3AFE46AA2C4C29F900AF85AD /* SchemaMetadata.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaMetadata.graphql.swift; sourceTree = "<group>"; };
-		3AFE46AC2C4C29F900AF85AD /* SwiftUIConcurrency.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIConcurrency.graphql.swift; sourceTree = "<group>"; };
 		3AFE46BD2C4C2A6F00AF85AD /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		3AFE46C02C4C2B5300AF85AD /* CourseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewModel.swift; sourceTree = "<group>"; };
 		3AFE46C32C4C31B100AF85AD /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
@@ -67,6 +60,27 @@
 		3AFE46C72C4D291F00AF85AD /* LoadFromFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadFromFile.swift; sourceTree = "<group>"; };
 		3AFE46C92C4D294900AF85AD /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		3AFE46CB2C4D2AB300AF85AD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3AFE46CE2C4D327F00AF85AD /* SectionQuery.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = SectionQuery.graphql; sourceTree = "<group>"; };
+		3AFE46D02C4D343B00AF85AD /* CourseQuery.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseQuery.graphql.swift; sourceTree = "<group>"; };
+		3AFE46D12C4D343B00AF85AD /* SectionQuery.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionQuery.graphql.swift; sourceTree = "<group>"; };
+		3AFE46D42C4D343B00AF85AD /* DateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
+		3AFE46D62C4D343B00AF85AD /* _Node.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _Node.graphql.swift; sourceTree = "<group>"; };
+		3AFE46D72C4D343B00AF85AD /* Entry.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.graphql.swift; sourceTree = "<group>"; };
+		3AFE46D92C4D343B00AF85AD /* Asset.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asset.graphql.swift; sourceTree = "<group>"; };
+		3AFE46DA2C4D343B00AF85AD /* Course.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.graphql.swift; sourceTree = "<group>"; };
+		3AFE46DB2C4D343B00AF85AD /* CourseCollection.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCollection.graphql.swift; sourceTree = "<group>"; };
+		3AFE46DC2C4D343B00AF85AD /* CourseSectionCollection.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseSectionCollection.graphql.swift; sourceTree = "<group>"; };
+		3AFE46DD2C4D343B00AF85AD /* Query.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.graphql.swift; sourceTree = "<group>"; };
+		3AFE46DE2C4D343B00AF85AD /* Section.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.graphql.swift; sourceTree = "<group>"; };
+		3AFE46DF2C4D343B00AF85AD /* SectionCollection.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionCollection.graphql.swift; sourceTree = "<group>"; };
+		3AFE46E02C4D343B00AF85AD /* Sys.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sys.graphql.swift; sourceTree = "<group>"; };
+		3AFE46E22C4D343B00AF85AD /* SchemaConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaConfiguration.swift; sourceTree = "<group>"; };
+		3AFE46E32C4D343B00AF85AD /* SchemaMetadata.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemaMetadata.graphql.swift; sourceTree = "<group>"; };
+		3AFE46E52C4D343B00AF85AD /* SwiftUIConcurrency.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIConcurrency.graphql.swift; sourceTree = "<group>"; };
+		3AFE46F72C4D347000AF85AD /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		3AFE46F92C4D355200AF85AD /* SectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewModel.swift; sourceTree = "<group>"; };
+		3AFE46FB2C4D377300AF85AD /* SectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsView.swift; sourceTree = "<group>"; };
+		3AFE46FD2C4D37FA00AF85AD /* SectionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionList.swift; sourceTree = "<group>"; };
 		442A26B82BFB7C84007AC523 /* DateTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTitle.swift; sourceTree = "<group>"; };
 		442A26BA2BFB7D91007AC523 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		442A26BE2BFB7E36007AC523 /* FeaturedCourseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCourseCard.swift; sourceTree = "<group>"; };
@@ -92,75 +106,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3AFE469A2C4C29F900AF85AD /* Queries */ = {
-			isa = PBXGroup;
-			children = (
-				3AFE46992C4C29F900AF85AD /* CourseQuery.graphql.swift */,
-			);
-			path = Queries;
-			sourceTree = "<group>";
-		};
-		3AFE469B2C4C29F900AF85AD /* Operations */ = {
-			isa = PBXGroup;
-			children = (
-				3AFE469A2C4C29F900AF85AD /* Queries */,
-			);
-			path = Operations;
-			sourceTree = "<group>";
-		};
-		3AFE469D2C4C29F900AF85AD /* CustomScalars */ = {
-			isa = PBXGroup;
-			children = (
-				3AFE469C2C4C29F900AF85AD /* DateTime.swift */,
-			);
-			path = CustomScalars;
-			sourceTree = "<group>";
-		};
-		3AFE46A02C4C29F900AF85AD /* Interfaces */ = {
-			isa = PBXGroup;
-			children = (
-				3AFE469E2C4C29F900AF85AD /* _Node.graphql.swift */,
-				3AFE469F2C4C29F900AF85AD /* Entry.graphql.swift */,
-			);
-			path = Interfaces;
-			sourceTree = "<group>";
-		};
-		3AFE46A82C4C29F900AF85AD /* Objects */ = {
-			isa = PBXGroup;
-			children = (
-				3AFE46A12C4C29F900AF85AD /* Asset.graphql.swift */,
-				3AFE46A22C4C29F900AF85AD /* Course.graphql.swift */,
-				3AFE46A32C4C29F900AF85AD /* CourseCollection.graphql.swift */,
-				3AFE46A42C4C29F900AF85AD /* CourseSectionCollection.graphql.swift */,
-				3AFE46A52C4C29F900AF85AD /* Query.graphql.swift */,
-				3AFE46A62C4C29F900AF85AD /* Section.graphql.swift */,
-				3AFE46A72C4C29F900AF85AD /* Sys.graphql.swift */,
-			);
-			path = Objects;
-			sourceTree = "<group>";
-		};
-		3AFE46AB2C4C29F900AF85AD /* Schema */ = {
-			isa = PBXGroup;
-			children = (
-				3AFE469D2C4C29F900AF85AD /* CustomScalars */,
-				3AFE46A02C4C29F900AF85AD /* Interfaces */,
-				3AFE46A82C4C29F900AF85AD /* Objects */,
-				3AFE46A92C4C29F900AF85AD /* SchemaConfiguration.swift */,
-				3AFE46AA2C4C29F900AF85AD /* SchemaMetadata.graphql.swift */,
-			);
-			path = Schema;
-			sourceTree = "<group>";
-		};
-		3AFE46AD2C4C29F900AF85AD /* SwiftUIConcurrency */ = {
-			isa = PBXGroup;
-			children = (
-				3AFE469B2C4C29F900AF85AD /* Operations */,
-				3AFE46AB2C4C29F900AF85AD /* Schema */,
-				3AFE46AC2C4C29F900AF85AD /* SwiftUIConcurrency.graphql.swift */,
-			);
-			path = SwiftUIConcurrency;
-			sourceTree = "<group>";
-		};
 		3AFE46BC2C4C2A5D00AF85AD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				3AFE46C02C4C2B5300AF85AD /* CourseViewModel.swift */,
+				3AFE46F92C4D355200AF85AD /* SectionViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -183,14 +129,96 @@
 			isa = PBXGroup;
 			children = (
 				3AFE46C32C4C31B100AF85AD /* CourseModel.swift */,
+				3AFE46F72C4D347000AF85AD /* SectionModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		3AFE46CD2C4D325F00AF85AD /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE46942C4C17C900AF85AD /* CourseQuery.graphql */,
+				3AFE46CE2C4D327F00AF85AD /* SectionQuery.graphql */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+		3AFE46D22C4D343B00AF85AD /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE46D02C4D343B00AF85AD /* CourseQuery.graphql.swift */,
+				3AFE46D12C4D343B00AF85AD /* SectionQuery.graphql.swift */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+		3AFE46D32C4D343B00AF85AD /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE46D22C4D343B00AF85AD /* Queries */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		3AFE46D52C4D343B00AF85AD /* CustomScalars */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE46D42C4D343B00AF85AD /* DateTime.swift */,
+			);
+			path = CustomScalars;
+			sourceTree = "<group>";
+		};
+		3AFE46D82C4D343B00AF85AD /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE46D62C4D343B00AF85AD /* _Node.graphql.swift */,
+				3AFE46D72C4D343B00AF85AD /* Entry.graphql.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		3AFE46E12C4D343B00AF85AD /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE46D92C4D343B00AF85AD /* Asset.graphql.swift */,
+				3AFE46DA2C4D343B00AF85AD /* Course.graphql.swift */,
+				3AFE46DB2C4D343B00AF85AD /* CourseCollection.graphql.swift */,
+				3AFE46DC2C4D343B00AF85AD /* CourseSectionCollection.graphql.swift */,
+				3AFE46DD2C4D343B00AF85AD /* Query.graphql.swift */,
+				3AFE46DE2C4D343B00AF85AD /* Section.graphql.swift */,
+				3AFE46DF2C4D343B00AF85AD /* SectionCollection.graphql.swift */,
+				3AFE46E02C4D343B00AF85AD /* Sys.graphql.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		3AFE46E42C4D343B00AF85AD /* Schema */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE46D52C4D343B00AF85AD /* CustomScalars */,
+				3AFE46D82C4D343B00AF85AD /* Interfaces */,
+				3AFE46E12C4D343B00AF85AD /* Objects */,
+				3AFE46E22C4D343B00AF85AD /* SchemaConfiguration.swift */,
+				3AFE46E32C4D343B00AF85AD /* SchemaMetadata.graphql.swift */,
+			);
+			path = Schema;
+			sourceTree = "<group>";
+		};
+		3AFE46E62C4D343B00AF85AD /* SwiftUIConcurrency */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE46D32C4D343B00AF85AD /* Operations */,
+				3AFE46E42C4D343B00AF85AD /* Schema */,
+				3AFE46E52C4D343B00AF85AD /* SwiftUIConcurrency.graphql.swift */,
+			);
+			path = SwiftUIConcurrency;
 			sourceTree = "<group>";
 		};
 		442A26BC2BFB7D9F007AC523 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				442A26B82BFB7C84007AC523 /* DateTitle.swift */,
+				3AFE46FD2C4D37FA00AF85AD /* SectionList.swift */,
 				442A26C22BFB82F3007AC523 /* CourseCard.swift */,
 				442A26BE2BFB7E36007AC523 /* FeaturedCourseCard.swift */,
 				442A26C02BFB824A007AC523 /* FeaturedCourseList.swift */,
@@ -203,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				4431662B2BD16D990080B121 /* ContentView.swift */,
+				3AFE46FB2C4D377300AF85AD /* SectionsView.swift */,
 				442A26BA2BFB7D91007AC523 /* HomeView.swift */,
 			);
 			path = Views;
@@ -227,17 +256,17 @@
 		443166282BD16D990080B121 /* SwiftUIConcurrency */ = {
 			isa = PBXGroup;
 			children = (
+				3AFE46E62C4D343B00AF85AD /* SwiftUIConcurrency */,
 				3AFE46C22C4C31A000AF85AD /* Models */,
 				3AFE46BC2C4C2A5D00AF85AD /* Utils */,
 				3AFE46BF2C4C2B3D00AF85AD /* ViewModels */,
-				3AFE46AD2C4C29F900AF85AD /* SwiftUIConcurrency */,
 				3AFE46972C4C198300AF85AD /* schema.json */,
 				443166292BD16D990080B121 /* SwiftUIConcurrencyApp.swift */,
 				442A26BD2BFB7DAB007AC523 /* Views */,
 				4431662D2BD16D9A0080B121 /* Assets.xcassets */,
 				4431662F2BD16D9A0080B121 /* Preview Content */,
 				442A26BC2BFB7D9F007AC523 /* Components */,
-				3AFE46942C4C17C900AF85AD /* CourseQuery.graphql */,
+				3AFE46CD2C4D325F00AF85AD /* Queries */,
 			);
 			path = SwiftUIConcurrency;
 			sourceTree = "<group>";
@@ -320,6 +349,7 @@
 				443166312BD16D9A0080B121 /* Preview Assets.xcassets in Resources */,
 				4431662E2BD16D9A0080B121 /* Assets.xcassets in Resources */,
 				3AFE46C62C4D291300AF85AD /* CourseData.json in Resources */,
+				3AFE46CF2C4D327F00AF85AD /* SectionQuery.graphql in Resources */,
 				3AFE46952C4C17C900AF85AD /* CourseQuery.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,34 +361,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AFE46B22C4C29F900AF85AD /* Asset.graphql.swift in Sources */,
+				3AFE46EA2C4D343B00AF85AD /* _Node.graphql.swift in Sources */,
+				3AFE46F02C4D343B00AF85AD /* Query.graphql.swift in Sources */,
+				3AFE46F52C4D343B00AF85AD /* SchemaMetadata.graphql.swift in Sources */,
+				3AFE46FE2C4D37FA00AF85AD /* SectionList.swift in Sources */,
+				3AFE46EB2C4D343B00AF85AD /* Entry.graphql.swift in Sources */,
+				3AFE46F82C4D347000AF85AD /* SectionModel.swift in Sources */,
 				3AFE46C42C4C31B100AF85AD /* CourseModel.swift in Sources */,
+				3AFE46F22C4D343B00AF85AD /* SectionCollection.graphql.swift in Sources */,
+				3AFE46F32C4D343B00AF85AD /* Sys.graphql.swift in Sources */,
 				442A26C52BFB8530007AC523 /* CourseList.swift in Sources */,
-				3AFE46B42C4C29F900AF85AD /* CourseCollection.graphql.swift in Sources */,
 				4431662C2BD16D990080B121 /* ContentView.swift in Sources */,
-				3AFE46B72C4C29F900AF85AD /* Section.graphql.swift in Sources */,
-				3AFE46B92C4C29F900AF85AD /* SchemaConfiguration.swift in Sources */,
-				3AFE46AF2C4C29F900AF85AD /* DateTime.swift in Sources */,
-				3AFE46B62C4C29F900AF85AD /* Query.graphql.swift in Sources */,
-				3AFE46B02C4C29F900AF85AD /* _Node.graphql.swift in Sources */,
 				442A26BB2BFB7D91007AC523 /* HomeView.swift in Sources */,
-				3AFE46B12C4C29F900AF85AD /* Entry.graphql.swift in Sources */,
-				3AFE46B32C4C29F900AF85AD /* Course.graphql.swift in Sources */,
 				442A26C12BFB824A007AC523 /* FeaturedCourseList.swift in Sources */,
+				3AFE46ED2C4D343B00AF85AD /* Course.graphql.swift in Sources */,
 				4431662A2BD16D990080B121 /* SwiftUIConcurrencyApp.swift in Sources */,
 				442A26C32BFB82F3007AC523 /* CourseCard.swift in Sources */,
+				3AFE46F12C4D343B00AF85AD /* Section.graphql.swift in Sources */,
 				442A26B92BFB7C84007AC523 /* DateTitle.swift in Sources */,
-				3AFE46BB2C4C29F900AF85AD /* SwiftUIConcurrency.graphql.swift in Sources */,
-				3AFE46BA2C4C29F900AF85AD /* SchemaMetadata.graphql.swift in Sources */,
+				3AFE46FC2C4D377300AF85AD /* SectionsView.swift in Sources */,
 				442A26BF2BFB7E36007AC523 /* FeaturedCourseCard.swift in Sources */,
-				3AFE46AE2C4C29F900AF85AD /* CourseQuery.graphql.swift in Sources */,
-				3AFE46B82C4C29F900AF85AD /* Sys.graphql.swift in Sources */,
+				3AFE46FA2C4D355200AF85AD /* SectionViewModel.swift in Sources */,
+				3AFE46EC2C4D343B00AF85AD /* Asset.graphql.swift in Sources */,
 				3AFE46C12C4C2B5300AF85AD /* CourseViewModel.swift in Sources */,
+				3AFE46EF2C4D343B00AF85AD /* CourseSectionCollection.graphql.swift in Sources */,
+				3AFE46E92C4D343B00AF85AD /* DateTime.swift in Sources */,
 				3AFE46CA2C4D294900AF85AD /* PreviewData.swift in Sources */,
+				3AFE46E72C4D343B00AF85AD /* CourseQuery.graphql.swift in Sources */,
 				3AFE46C82C4D291F00AF85AD /* LoadFromFile.swift in Sources */,
-				3AFE46B52C4C29F900AF85AD /* CourseSectionCollection.graphql.swift in Sources */,
+				3AFE46E82C4D343B00AF85AD /* SectionQuery.graphql.swift in Sources */,
 				3AFE46BE2C4C2A6F00AF85AD /* Network.swift in Sources */,
+				3AFE46F62C4D343B00AF85AD /* SwiftUIConcurrency.graphql.swift in Sources */,
+				3AFE46F42C4D343B00AF85AD /* SchemaConfiguration.swift in Sources */,
 				3AFE46CC2C4D2AB300AF85AD /* Extensions.swift in Sources */,
+				3AFE46EE2C4D343B00AF85AD /* CourseCollection.graphql.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

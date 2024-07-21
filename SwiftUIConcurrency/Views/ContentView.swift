@@ -10,6 +10,11 @@ struct ContentView: View {
                     Image(systemName: "house")
                     Text("Learn now")
                 }
+            SectionsView()
+                .tabItem {
+                    Image(systemName: "square.stack.3d.down.right.fill")
+                    Text("Sections")
+                }
         }
         .task {
             await courseViewModel.fetch()
