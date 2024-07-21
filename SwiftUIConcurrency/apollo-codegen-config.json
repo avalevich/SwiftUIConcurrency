@@ -1,0 +1,29 @@
+{
+  "schemaNamespace" : "SwiftUIConcurrency",
+  "input" : {
+    "operationSearchPaths" : [
+      "**/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "schema.json"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "./SwiftUIConcurrency",
+      "moduleType" : {
+        "embeddedInTarget" : {
+          "name" : "SwiftUIConcurrency"
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}

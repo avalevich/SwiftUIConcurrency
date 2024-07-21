@@ -1,6 +1,9 @@
 import SwiftUI
+import Apollo
 
 struct HomeView: View {
+    @EnvironmentObject var courseViewModel: CourseViewModel
+    
     var body: some View {
         ZStack(alignment: .top) {
             ScrollView {
@@ -19,7 +22,7 @@ struct HomeView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.top, 40)
                 
-                CourseList()
+                CourseList(courses: courseViewModel.courses)
                     .padding(.top, 20)
             }
             Color(.white)
@@ -32,4 +35,5 @@ struct HomeView: View {
 
 #Preview {
     HomeView()
+        .environmentObject(CourseViewModel())
 }
